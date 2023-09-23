@@ -12,7 +12,7 @@ $(document).on('click', '#tombolPopup', function (e) {
     e.preventDefault();
     Swal.fire({
         icon: 'info',
-        title: 'Halo Pacarku',
+        title: 'Halo Ayangkuuuu',
         text: 'Aku ada pertanyaan nih buat kamu',
         showClass: {
             popup: 'animate__animated animate__tada'
@@ -22,7 +22,7 @@ $(document).on('click', '#tombolPopup', function (e) {
         }
     }).then(() => {
         Swal.fire({
-            title: 'Jawab yang jujur ya',
+            title: 'Jawab yg jujur yaaa',
             showClass: {
                 popup: 'animate__animated animate__jackInTheBox'
             },
@@ -42,7 +42,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                 }
             }).then(() => {
                 Swal.fire({
-                    title: 'Masukkin nama kamu dulu dong',
+                    title: 'Masukkin nama ayang dulu ehehe',
                     showClass: {
                         popup: 'animate__animated animate__jackInTheBox'
                     },
@@ -73,7 +73,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                         const nama = $('#input-field').val();
                         console.log(nama);
                         Swal.fire({
-                            title: nama + ' ' + 'sayang gak sama aku?',
+                            title: nama + ' ' + 'sayang ngga sama akuu?',
                             icon: 'question',
                             showCancelButton: true,
                             confirmButtonColor: '#3085d6',
@@ -89,7 +89,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                         }).then((result) => {
                             if (result.isConfirmed) {
                                 Swal.fire({
-                                    title: 'Aku juga sayang banget sama ' + nama,
+                                    title: 'Aku juga sayanggg bangetttt sama ' + nama,
                                     showClass: {
                                         popup: 'animate__animated animate__jackInTheBox'
                                     },
@@ -119,7 +119,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                         inputValue: 20,
                                         preConfirm: function (value) {
                                             Swal.insertQueueStep({
-                                                title: 'Terima kasih sudah sayang ke aku' + ' ' + value + '%',
+                                                title: 'Maacih ayangkuuu udah sayang sama aku' + ' ' + value + '%',
                                                 icon: "info",
                                                 showClass: {
                                                     popup: 'animate__animated animate__jackInTheBox'
@@ -132,7 +132,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                         allowOutsideClick: () => !Swal.isLoading()
                                     }]).then(() => {
                                         Swal.fire({
-                                            title: 'Sekarang' + ' ' + nama + ' ' + 'kangen sama aku gak?',
+                                            title: 'Sekarang' + ' ' + nama + ' ' + 'kangen sama aku ngga?',
                                             icon: 'question',
                                             type: 'question',
                                             showClass: {
@@ -149,7 +149,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                         }).then((result) => {
                                             if (result.isConfirmed) {
                                                 Swal.fire({
-                                                    title: 'Sama aku juga kangen sama' + ' ' + nama,
+                                                    title: 'Aku lebih kangen banget sama kamu ' + ' ' + nama,
                                                     icon: 'info',
                                                     showClass: {
                                                         popup: 'animate__animated animate__jackInTheBox'
@@ -256,7 +256,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                 })
                             } else {
                                 Swal.fire({
-                                    title: 'Beneran? Aku tanya sekali lagi nih. Sayang gak sama aku?',
+                                    title: 'Beneran? Aku tanya sekali lagi nih. Sayang ngga sama akuuu woy?',
                                     icon: 'question',
                                     text: 'Coba jawab yang bener',
                                     showCancelButton: true,
@@ -371,7 +371,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                 inputValue: 15,
                                                 preConfirm: function (value) {
                                                     Swal.insertQueueStep({
-                                                        title: 'Terima kasih sudah sayang ke aku' + ' ' + value + '%',
+                                                        title: 'Maacih sudah sayang ke aku' + ' ' + value + '%',
                                                         icon: "info"
                                                     })
                                                 },
